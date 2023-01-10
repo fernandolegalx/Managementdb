@@ -26,7 +26,7 @@ public class Gerenciamento {
 		String database = "jdbc:mysql://localhost?verifyServerCertificate=false&useSSL=true";
 		
 		System.out.print("Digite usuario: ");
-		String loginuser = user.nextLine();
+		String loginuser = user.next();
 		
 		System.out.print("Digite a senha: ");
 		String password = pass.next();
